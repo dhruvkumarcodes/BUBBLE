@@ -16,7 +16,7 @@ export const SocketProvider = ({ children }) => {
 
   useEffect(() => {
     if (authUser) {
-      const socket = io("http://localhost:4001", {
+      const socket = io("https://bubble-aakb.onrender.com", {
         query: {
           userId: authUser.user._id,
         },
