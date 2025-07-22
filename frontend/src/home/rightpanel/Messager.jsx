@@ -1,6 +1,5 @@
 import React from 'react'
 import useConversation from '../../statemanagement/useConversation'
-import User from '../leftpanel/user';
 import { useSocketContext } from '../../context/SocketContext';
 
 export default function Messager() {
