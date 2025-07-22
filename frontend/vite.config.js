@@ -8,7 +8,8 @@ export default defineConfig({
     port: 4001,
     proxy: {
       "/api": {
-        target: "https://bubble-backend-a2x9.onrender.com",
+        target: "http://localhost:3000",
+
         changeOrigin: true,
       },
     },
